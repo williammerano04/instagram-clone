@@ -7,11 +7,14 @@
 .middle-content-left-section{
     flex: 1;
     display: flex;
-    min-width: 240px;
+    min-width: 220px;
+    padding: 8px 12px 20px 12px;
 }
 .middle-content-right-section{
     flex: 1;
     min-width: 320px;
+    padding-left: 64px;
+    height: auto;
     display: flex;
 }
 .reels-section-container{
