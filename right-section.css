@@ -1,0 +1,126 @@
+.right-section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 74px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* USER-SECTION */
+.user-section-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 36px;
+    width: 280px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.userpp-section-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.right-section-user-pp-container{
+    width: 45px;
+    height: 45px;
+    position: relative;
+}
+.right-section-user-pp{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.right-section-username-container{
+    margin-left: 10px;
+}
+.right-section-name{
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+.right-section-username{
+    margin: 0px;
+    color: grey;
+    font-size: 15px;
+}
+
+.switchandfollow-button{
+    border: none;
+    background: none;
+    color: rgb(0, 149, 246);
+    cursor: pointer;
+    font-size: 12px;
+}
+/* USER-SECTION */
+
+/* SUGGEST AND SEE ALL-BUTTON  */
+.user-suggested-container{
+    display: flex;
+    flex-direction: column;
+    height: 315px;
+    margin-bottom: 20px;
+}
+.user-section-container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 8px 0px 8px 8px;
+    justify-content: space-between;
+}
+.right-section-username2{
+    margin: 0px;
+    color: grey;
+    font-size: 12px;
+}
+.right-section-suggested-seeall-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0px;
+}
+.right-section-suggested{
+    color: grey;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.seeall-button{
+    border: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 12px;
+}
+/* SUGGEST AND SEE ALL-BUTTON  */
+
+/* LAST SECTION (ABOUT,HELP AND ETC)  */
+.right-section-about-container{
+    margin-top: 22px;
+}
+.right-section-lines{
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    margin-top: 6px;
+    
+}
+.right-section-lines p{
+    color: rgb(115, 115, 115);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.right-section-lines a{
+    text-decoration: none;
+}
+/* LAST SECTION (ABOUT,HELP AND ETC)  */
+
+@media (max-width:1090px){
+    .right-section{
+        display: none;
+    }
+}

@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    height: 3000px;
+    padding-left: 230px;
+    
+    
+}
+p{
+    color: white;
+}
+@media (max-width:1264px){
+    body{
+        padding-left: 50px;
+    }
+}
+@media (max-width:739px){
+    body{
+        padding-left: 0px;
+        padding-top: 60px;
+    }
+}

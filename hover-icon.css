@@ -1,0 +1,212 @@
+.user-icon-hover-container p{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.user-icon-hover-container{
+    width: 366px;
+    height: 334px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    opacity: 0%;
+    pointer-events: none;
+    transition: 0.5s;
+    border-radius: 10px;
+    
+}
+.hover-user-info-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+.hover-userpp-container{
+    height: 66px;
+    width: 66px;
+}
+.hover-userpp{
+    height: 100%;
+    width: 100%;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    object-fit: cover;
+    background: 
+      linear-gradient(to top right, white, white), 
+      linear-gradient(to top right,#ffc400 0%, #e000fd 100%); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    
+}
+.hover-info-container{
+    padding-left: 15px;
+}
+.hover-info-line1{
+    font-size: 16px;
+    font-weight: bold;
+}
+.hover-info-line2{
+    font-size: 14px;
+    color: rgb(168, 168, 168);
+    padding-bottom: 3px;
+}
+.hover-info-line3{
+    font-size: 13px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 15px;
+}
+
+.hover-user-info-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.hover-user-info2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    font-size: 14px;
+}
+.hover-user-info2-line1{
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.hover-user-info-container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.hoveruser-post-picture-container{
+    height: 120px;
+    width: 120px;
+}
+.hoveruser-post-picture{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hover-user-info-container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.hover-msg-container{
+    display: flex;
+    align-items: center;
+   
+}
+.hover-msg-btn{
+    
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(10, 149, 246);
+    color: white;
+    position: relative;
+    padding-left: 70px;
+    padding-right: 43px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 14px;
+}
+.hover-msg-icon{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    left: 30px;
+}
+.hover-following-btn{
+    height: 35px;
+    width: 160px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    text-align: center;
+    
+}
+/* LOCK DISPLAY */
+.hover-user-info-container5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    height: 85px;
+    padding: 16px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(78, 78, 78, 0.5);;
+}
+.hoveruser-lock-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border: 3px solid transparent;
+    border-radius: 50%;
+    object-fit: cover;
+    background: 
+      linear-gradient(to top right, rgb(0, 0, 0), rgb(0, 0, 0)), 
+      linear-gradient(to top right,#ffc400 0%, #e000fd 100%); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    
+}
+.hoveruser-lock-icon{
+    height: 34px;
+    width: 34px 
+}
+.hoveruser-secondline{
+    color: rgb(78, 78, 78);
+}
+.hover-user-info-container6{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.hover-following-container{
+    position: relative;
+}
+.hover-following-btn2{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(10, 149, 246);
+    color: white;
+    text-align: center;
+    margin-top: 17px;
+    padding-left: 145px;
+    padding-right: 130px;
+    font-weight: bold;
+    
+}
+.hover-addfriend-icon-container{
+    position: absolute;
+    top: 25px;
+    width: 18px;
+    left: 120px;
+}
+.hover-addfriend-icon{
+    width: 100%;
+}
+/* HOVER ICON*/
+.right-section-user-pp-container:hover .user-icon-hover-container{
+    transition: 0.7s;
+    opacity: 100%;
+}

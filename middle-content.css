@@ -1,0 +1,232 @@
+.middle-content{
+    display: flex;
+    flex-direction: column;
+   
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+/* Reels */
+.reels-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    justify-content: center;
+    gap: 15px;
+    
+   
+}
+.reels-section-container{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.user-profile-picture-container{
+    width: 60px;
+    height: 60px;
+}
+.user-profile-picture{
+    width: 60px;
+    height: 60px;
+    border: 2px solid transparent;
+    object-fit: cover;
+    border-radius: 50%;
+    background: 
+      linear-gradient(to top right, white, white), 
+      linear-gradient(to top right,#ffc400 0%, #e000fd 100%); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    cursor: pointer;
+}
+.user-username{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 8px;
+}
+/* Reels */
+
+/* MIDDLE USER POST */
+.middle-userpost-section-container{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    margin-bottom: 30px;
+    justify-content: center;
+    
+}
+.middle-middle-section{
+    display: flex;
+    flex-direction: column;
+   
+
+    max-width: 570px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+}
+.space-between-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.userpost-section-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.middle-users-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.middle-userpp-container{
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+.middle-userpp{
+    width: 35px;
+    height: 35px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    object-fit: cover;
+    background: 
+      linear-gradient(to top right, white, white), 
+      linear-gradient(to top right,#ffc400 0%, #e000fd 100%); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    cursor: pointer;
+    
+}
+.middle-username-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.middle-username{
+    cursor: pointer;
+}
+.middle-username-time{
+    color: rgb(168, 168, 168);
+    cursor: pointer;
+}
+.more-line-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.middle-userimage-post-container{
+    flex: 1;
+    display: flex;
+    flex-shrink: 1;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+.middle-userimage-post{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    object-fit: fill;
+    display: flex;
+    
+}
+.middle-icons-container{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.middle-icons-container2{
+    width: 28px;
+    height: 28px;
+    
+}
+.middle-icons{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.middle-icons:hover{
+    opacity: 0.5;
+}
+.middle-username2-container{
+    display: flex;
+    
+    align-items: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.middle-username2-container p{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.middle-username2-container a{
+    text-decoration: none;
+    color: white;
+}
+.middle-username2-container span{
+    font-weight: bold;
+}
+
+.comment-smile-icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: -5px;
+    border-bottom: solid;
+    border-color: gray;
+    border-width: 1px;
+    padding-bottom: 10px;
+}
+.comment-icon-container{
+    width: 15px;
+    height: 15px;
+}
+.comment-icon{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.comment-text:focus{
+    outline: none;
+}
+
+.comment-text{
+    background: none;
+    border: none;
+    color: white;
+
+}
+/* HOVER ICON*/
+.middle-userpp-container:hover .user-icon-hover-container{
+    transition: 0.7s;
+    opacity: 100%;
+}
+.body2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+@media (max-width:625px){
+  .reels-section{
+    justify-content: flex-start;
+  }
+}
+@media (max-width:600px){
+   
+}
